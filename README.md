@@ -1,5 +1,5 @@
 ## Twitch-Tv-App-Local
-#### Check it out [here](https://c0d0er.github.io/Twitch-TV-App/)
+#### Check it out [here](https://c0d0er.github.io/Twitch-TV-App-Local/)
 
 #### Fulfill the below user stories:
 - User Story: store JSON API data in local file to prevent flashing when searching (original way to store data in local file).
