@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Twitch TV</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="tvStyle.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row text-center aligeneral">
+            <div class="twitch-area">
+                <h1>Twitch TV</h1>
+                <form id="form-container">
+                    <div class="input-group">
+                        <input class="form-control" type="search" id="twitchSearch" value="" placeholder="Search...">
+                        <span class="input-group-addon" class="form-control-feedback">
+        <i class="fa fa-search"></i></span>
+                    </div>
+                    <button type="button" class="btn btn-info" id="all">All</button>
+                    <span><button type="button" class="btn btn-success" id="on">Online</button></span>
+                    <span><button type="button" class="btn btn-warning" id="off">Offline</button></span>
+                </form>
+                <div id="twitchContent">
+                    <div id='twitchDiv'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="tvScript.js">
+    </script>
+</body>
+
+</html>
